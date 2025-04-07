@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monster Survivors - Epic Survival Adventure Game | Play Online</title>
-    <meta name="description" content="Play Monster Survivors, an epic survival adventure game where you battle against waves of monsters. Experience intense gameplay, upgrade your character, and survive in this thrilling online game.">
+    <title>Right Jump - Fun Platform Game | Play Free Online Jumping Game</title>
+    <meta name="description" content="Play Right Jump, an addictive platform game where timing is everything! Perfect your jumps through challenging obstacles, trampolines, and moving platforms. Free to play online, no download required.">
+    <meta name="keywords" content="Right Jump, platform game, online game, jumping game, free game, casual game, arcade game, timing game, browser game">
+    <meta name="author" content="Invent4">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
     <link rel="canonical" href="https://pineverseup.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pineverseup.com">
+    <meta property="og:title" content="Right Jump - Master the Perfect Jump in this Free Online Game">
+    <meta property="og:description" content="Challenge yourself in Right Jump, where perfect timing leads to victory. Navigate through obstacles and master the art of jumping in this addictive platform game.">
+    <meta property="og:image" content="https://images.crazygames.com/right-jump/cover">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://pineverseup.com">
+    <meta name="twitter:title" content="Right Jump - Master the Perfect Jump in this Free Online Game">
+    <meta name="twitter:description" content="Challenge yourself in Right Jump, where perfect timing leads to victory. Navigate through obstacles and master the art of jumping in this addictive platform game.">
+    <meta name="twitter:image" content="https://images.crazygames.com/right-jump/cover">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoGame",
+      "name": "Right Jump",
+      "description": "An exciting casual platformer game that tests your agility and strategy. Time your jumps perfectly to navigate through tricky platforms and obstacles.",
+      "genre": ["Platform Game", "Casual Game", "Arcade Game"],
+      "gamePlatform": ["Web Browser", "Mobile Browser"],
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "author": {
+        "@type": "Organization",
+        "name": "Invent4"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CrazyGames"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "8.7",
+        "ratingCount": "492",
+        "bestRating": "10",
+        "worstRating": "1"
+      }
+    }
+    </script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6GXW7NKF0"></script>
     <script>
@@ -30,35 +84,38 @@
 <body class="min-h-screen">
     <!-- Header Section -->
     <header class="bg-white shadow-sm">
-        <nav class="container mx-auto px-4 py-4">
+        <nav class="container mx-auto px-4 py-4" aria-label="Main navigation">
             <div class="flex justify-between items-center">
-                <h1 class="text-2xl font-bold text-gray-900">Monster Survivors</h1>
-                <div class="space-x-4">
-                    <a href="#game" class="text-gray-600 hover:text-gray-900">Play Now</a>
-                    <a href="#about" class="text-gray-600 hover:text-gray-900">About</a>
-                    <a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+                <h1 class="text-2xl font-bold text-gray-900">Right Jump</h1>
+                <div class="space-x-4" role="navigation">
+                    <a href="#game" class="text-gray-600 hover:text-gray-900" aria-label="Play game now">Play Now</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900" aria-label="About the game">About</a>
+                    <a href="#features" class="text-gray-600 hover:text-gray-900" aria-label="Game features">Features</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="container mx-auto px-4 py-12">
+    <section class="container mx-auto px-4 py-12" aria-labelledby="hero-heading">
         <div class="text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Survive the Monster Invasion</h2>
-            <p class="text-xl text-gray-600 mb-8">Embark on an epic journey of survival in this thrilling action-packed adventure game</p>
-            <a href="#game" class="apple-gradient text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity">Play Now</a>
+            <h2 id="hero-heading" class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Master the Perfect Jump</h2>
+            <p class="text-xl text-gray-600 mb-8">Test your timing and strategy in this exciting platformer adventure</p>
+            <a href="#game" class="apple-gradient text-white px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity" role="button" aria-label="Start playing Right Jump">Play Now</a>
         </div>
     </section>
 
     <!-- Game Section -->
-    <section id="game" class="container mx-auto px-4 py-12">
+    <section id="game" class="container mx-auto px-4 py-12" aria-labelledby="game-heading">
+        <h2 id="game-heading" class="sr-only">Play Right Jump</h2>
         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <div class="aspect-w-16 aspect-h-9">
                 <iframe 
-                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                    src="https://www.crazygames.com/embed/right-jump" 
                     class="w-full h-[600px] md:h-[700px]"
+                    title="Play Right Jump - An exciting platform game"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    loading="lazy"
                     allowfullscreen>
                 </iframe>
             </div>
@@ -66,47 +123,47 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="container mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">About Monster Survivors</h2>
+    <section id="about" class="container mx-auto px-4 py-12" aria-labelledby="about-heading">
+        <h2 id="about-heading" class="text-3xl font-bold text-gray-900 mb-8 text-center">About Right Jump</h2>
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <article class="bg-white p-6 rounded-lg shadow-md">
                 <h3 class="text-xl font-semibold text-gray-900 mb-4">Game Overview</h3>
-                <p class="text-gray-600">Monster Survivors is an intense survival game that puts your skills to the ultimate test. Face waves of increasingly challenging monsters, upgrade your abilities, and try to survive as long as possible in this thrilling adventure.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Key Features</h3>
-                <ul class="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Dynamic monster waves with increasing difficulty</li>
-                    <li>Character progression and ability upgrades</li>
-                    <li>Multiple character classes to choose from</li>
-                    <li>Engaging gameplay mechanics</li>
-                    <li>Cross-platform compatibility</li>
+                <p class="text-gray-600">Right Jump is an exciting casual platformer game that tests your agility and strategy. Time your jumps perfectly to navigate through tricky platforms, elevators, trampolines, and moving obstacles. Each level presents new challenges that will test your skills and timing.</p>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">How to Play</h3>
+                <ul class="list-disc list-inside text-gray-600 space-y-2" role="list">
+                    <li>Hold the left mouse button to aim your move</li>
+                    <li>Release to jump</li>
+                    <li>Alternatively, use AD or arrow keys</li>
+                    <li>Time your jumps perfectly</li>
+                    <li>Navigate through various obstacles</li>
                 </ul>
-            </div>
+            </article>
         </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="container mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Game Features</h2>
+    <section id="features" class="container mx-auto px-4 py-12" aria-labelledby="features-heading">
+        <h2 id="features-heading" class="text-3xl font-bold text-gray-900 mb-8 text-center">Game Features</h2>
         <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Progressive Difficulty</h3>
-                <p class="text-gray-600">Face increasingly challenging waves of monsters as you progress through the game.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Character Development</h3>
-                <p class="text-gray-600">Upgrade your abilities and unlock new skills to become stronger.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-semibold text-gray-900 mb-4">Multiple Classes</h3>
-                <p class="text-gray-600">Choose from various character classes, each with unique abilities and playstyles.</p>
-            </div>
+            <article class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Challenging Levels</h3>
+                <p class="text-gray-600">Each level offers unique challenges and obstacles to overcome.</p>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Perfect Timing</h3>
+                <p class="text-gray-600">Master the art of timing to make perfect jumps and progress.</p>
+            </article>
+            <article class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Various Obstacles</h3>
+                <p class="text-gray-600">Navigate through platforms, elevators, trampolines, and more.</p>
+            </article>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8">
+    <footer class="bg-gray-900 text-white py-8" role="contentinfo">
         <div class="container mx-auto px-4 text-center">
             <p>&copy; <span id="currentYear"></span> pineverseup. All rights reserved.</p>
         </div>
